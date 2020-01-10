@@ -1,2 +1,2 @@
 # lendhoo.github.io
-lendhoo landing page
+LendHoo landing page

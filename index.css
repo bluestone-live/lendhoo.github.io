@@ -13,6 +13,13 @@ body {
   justify-content: space-between;
 }
 
+/* For compatibility with Safari */
+@media (max-height: 995px) {
+  body {
+    display: block;
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -30,6 +37,7 @@ a {
 }
 
 .jumbotron {
+  min-height: 460px;
   height: 460px;
   flex: 0;
   display: flex;
@@ -228,6 +236,7 @@ a {
 
 footer {
   min-height: 127px;
+  height: 127px;
   flex: 0;
   background-color: #f3f3f3;
   display: flex;
