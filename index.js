@@ -6,6 +6,7 @@ function fn() {
       mode: "gallery",
       autoplay: true,
       autoplayTimeout: 3500,
+      autoplayButtonOutput: false,
       swipeAngle: false,
       controls: false,
       speed: 500,
