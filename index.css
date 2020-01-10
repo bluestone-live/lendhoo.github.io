@@ -97,6 +97,7 @@ a {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
 .slide-item:nth-child(3n + 2)::after {
   background-image: url("/assets/mountain1.svg");
 }
@@ -106,7 +107,7 @@ a {
 .slide-item:nth-child(3n + 1)::after {
   background-image: url("/assets/mountain3.svg");
 }
-.slide-item .title {
+.slide-item .tagline {
   position: relative;
   top: 345px;
   font-size: 20px;
@@ -273,10 +274,78 @@ footer .copyright {
 }
 
 footer .logo-color {
-  background-image: url("/assets/logo.svg");
+  background-image: url("/assets/logo-color.svg");
   width: 179px;
   height: 24px;
   position: absolute;
   top: 20px;
   right: 0;
+}
+
+@media (max-width: 799px) {
+  .jumbotron {
+    min-height: 310px;
+    height: 310px;
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #002397;
+    position: relative;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .logo {
+    top: 20px;
+  }
+
+  .slide-item::after {
+    content: "";
+    width: 124px;
+    height: 13px;
+    right: 15px;
+    bottom: -1px;
+  }
+
+  .slide-item .tagline {
+    top: 182px;
+    line-height: 1.5;
+  }
+
+  .nav {
+    top: 264px;
+  }
+
+  .content {
+    padding-top: 20px;
+  }
+
+  .desc {
+    display: block;
+  }
+
+  .desc > div {
+    width: 100%;
+  }
+
+  .content .sub {
+    margin-bottom: 43px;
+  }
+
+  footer {
+    height: 174px;
+  }
+
+  footer .logo-color {
+    position: relative;
+    margin-bottom: 36px;
+  }
+
+  footer > .container {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
