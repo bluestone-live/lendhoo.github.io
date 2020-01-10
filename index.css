@@ -229,6 +229,9 @@ a {
 .deposit-icon {
   background-image: url("/assets/deposit.svg");
 }
+.risk-icon {
+  background-image: url("/assets/risk.svg");
+}
 .desc p {
   color: #b8bccc;
   font-size: 16px;
