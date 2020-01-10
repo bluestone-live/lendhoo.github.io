@@ -163,16 +163,16 @@ a {
 
 .fade-in {
   -webkit-animation-name: fade-in;
+  -webkit-animation-fill-mode: forwards;
   animation-name: fade-in;
-  -webkit-transform-origin: center;
-  transform-origin: center;
+  animation-fill-mode: forwards;
 }
 
 .fade-out {
   -webkit-animation-name: fade-out;
+  -webkit-animation-fill-mode: forwards;
   animation-name: fade-out;
-  -webkit-transform-origin: center;
-  transform-origin: center;
+  animation-fill-mode: forwards;
 }
 
 .content {
