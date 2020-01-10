@@ -282,7 +282,7 @@ footer .logo-color {
   right: 0;
 }
 
-@media (max-width: 799px) {
+@media (max-width: 1023px) {
   .jumbotron {
     min-height: 310px;
     height: 310px;
