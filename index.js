@@ -4,7 +4,7 @@ function fn() {
       container: ".slider",
       items: 1,
       mode: "gallery",
-      autoPlay: true,
+      autoplay: true,
       autoplayTimeout: 3500,
       swipeAngle: false,
       controls: false,
