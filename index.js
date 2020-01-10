@@ -1,5 +1,4 @@
 function fn() {
-  console.log("ready");
   if (window.tns) {
     window.tns({
       container: ".slider",
