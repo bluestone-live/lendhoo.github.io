@@ -1,2 +1,2 @@
-# lendhoo.github.io
-LendHoo landing page
+# BlueStone.github.io
+BlueStone landing page
